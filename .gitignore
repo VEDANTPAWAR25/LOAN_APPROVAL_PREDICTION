@@ -1,0 +1,82 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (NEVER push .venv)
+.venv/
+venv/
+env/
+
+# Byte-compiled
+*.pyo
+*.pyd
+*.pdb
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Logs
+*.log
+
+# IDE folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ----------------------------------------
+# Project Specific (DL/ML)
+# ----------------------------------------
+
+# Model files
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pt
+*.pth
+*.joblib
+*.pkl
+*.sav
+
+# TensorFlow / XGBoost huge binaries
+*.dll
+*.lib
+*.so
+
+# TensorFlow internal files (1GB+)
+tensorflow/
+xgboost/
+
+# Cache folders
+__pycache__/
+.cache/
+.tmp/
+
+# ----------------------------------------
+# Streamlit
+# ----------------------------------------
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# PDF or generated output
+*.pdf
+
+# Environment exports
+.env
+
+src/config/groq_key.py

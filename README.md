@@ -369,12 +369,6 @@ Contributions are welcome! To contribute:
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the LICENSE file for details.
-
----
-
 ## ⭐ Support
 
 If you find this project helpful, please **⭐ star** the repository!
